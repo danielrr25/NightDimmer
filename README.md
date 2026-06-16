@@ -32,3 +32,9 @@ dotnet run
 - Left-click the tray icon to open the brightness slider
 - Drag to adjust darkness
 - Right-click the tray icon → Exit to quit
+
+## Build a standalone app
+```
+dotnet publish -c Release -o publish
+```
+The `.exe` lands in the `publish` folder — double-click `NightDimmer.exe` to launch.
